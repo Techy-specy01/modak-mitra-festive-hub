@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useNavigate } from "react-router-dom";
 import diyaIcon from "@/assets/diya-icon.jpg";
 import modakIcon from "@/assets/modak-icon.jpg";
 import omIcon from "@/assets/om-icon.jpg";
@@ -38,6 +39,24 @@ const tiles = [
 ];
 
 export const QuickAccessTiles = () => {
+  const navigate = useNavigate();
+  
+  const handleNavigation = (tileId: number) => {
+    switch(tileId) {
+      case 1:
+        navigate('/aartis');
+        break;
+      case 2:
+        navigate('/recipes');
+        break;
+      case 3:
+        navigate('/festival-guide');
+        break;
+      default:
+        console.log(`Navigate to ${tileId}`);
+    }
+  };
+
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -84,7 +103,7 @@ export const QuickAccessTiles = () => {
                 <Button 
                   variant="festival" 
                   className="w-full"
-                  onClick={() => console.log(`Navigate to ${tile.title}`)}
+                  onClick={() => handleNavigation(tile.id)}
                 >
                   {tile.buttonText}
                 </Button>

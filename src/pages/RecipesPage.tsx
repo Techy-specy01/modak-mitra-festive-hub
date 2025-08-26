@@ -8,6 +8,7 @@ const recipes = [
     id: 1,
     name: "Modak",
     nameHindi: "मोदक",
+    
     description: "Lord Ganesha's favorite sweet - steamed rice flour dumplings with jaggery filling",
     prepTime: "45 mins",
     servings: "12 pieces",

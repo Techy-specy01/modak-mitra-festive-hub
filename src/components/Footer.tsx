@@ -33,7 +33,6 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#" className="text-secondary-foreground/80 hover:text-accent transition-colors">Daily Prayers</a></li>
               <li><a href="#" className="text-secondary-foreground/80 hover:text-accent transition-colors">Festival Calendar</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-accent transition-colors">Sacred Stories</a></li>
               <li><a href="#" className="text-secondary-foreground/80 hover:text-accent transition-colors">Mantras</a></li>
             </ul>
           </div>
@@ -42,9 +41,9 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-accent">Community</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-accent transition-colors">Share Recipes</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-accent transition-colors">Festival Photos</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-accent transition-colors">Local Events</a></li>
+              
+              
+             
               <li><a href="#" className="text-secondary-foreground/80 hover:text-accent transition-colors">Contact Us</a></li>
             </ul>
           </div>
@@ -53,7 +52,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-secondary-foreground/20 pt-8 text-center">
           <p className="text-secondary-foreground/70">
-            © 2024 ModakMitra. Made with devotion for Lord Ganesha 🙏
+            © 2024 ModakMitra🙏
           </p>
           <div className="mt-4 text-2xl space-x-4">
             <span>गणपति बप्पा मोरया</span>

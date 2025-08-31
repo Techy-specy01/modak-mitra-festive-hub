@@ -14,7 +14,7 @@ const tiles = [
     icon: diyaIcon,
     items: ["Sukhkarta Dukhharta", "Ganesh Aarti", "Ganpati Atharvashirsha"],
     buttonText: "Explore Aartis",
-    variant: "festival" as const,
+    variant: "divine" as const,
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const tiles = [
     icon: omIcon,
     items: ["Daily Rituals", "Puja Timings", "Visarjan Guide"],
     buttonText: "Learn More",
-    variant: "floating" as const,
+    variant: "divine" as const,
   },
 ];
 

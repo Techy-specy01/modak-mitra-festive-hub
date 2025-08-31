@@ -17,10 +17,11 @@ const recipes = [
     ingredients: [
       "2 cups rice flour",
       "1 cup jaggery (gur)",
-      "1 cup fresh coconut (grated)",
-      "1 tsp ghee",
+      "1 cup fresh coconut (grated🥥)",
+      "1 tsp ghee, Kesar(optional)",
       "1/2 tsp cardamom powder",
       "Pinch of salt"
+      
     ],
     instructions: [
       "Heat jaggery in a pan until it melts completely",
@@ -29,10 +30,10 @@ const recipes = [
       "Boil water with salt and ghee, add rice flour gradually",
       "Knead into smooth dough when cool enough to handle",
       "Make small portions, flatten and add filling",
-      "Shape into dumplings and steam for 10-12 minutes",
+      "Shape into modak,add kesar on top of every modak and steam for 10-12 minutes",
       "Offer to Lord Ganesha with devotion"
     ],
-    tips: "Use fresh coconut for best taste. The dough should be soft but not sticky."
+    tips: "Use fresh coconut for best taste. The dough should be soft but not sticky.Serve by pouring 1 tbsp ghee"
   },
   {
     id: 2,
@@ -118,7 +119,6 @@ const recipes = [
       "Stir well and cook for 5 minutes",
       "Garnish with fresh grated coconut"
     ],
-    tips: "Don't overcook the chickpeas. They should hold their shape well."
   }
 ];
 

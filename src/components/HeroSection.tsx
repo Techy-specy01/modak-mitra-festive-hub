@@ -6,8 +6,8 @@ export const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-festival overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 w-32 h-32 rounded-full bg-accent animate-float" style={{ animationDelay: '0s' }}></div>
-        <div className="absolute top-40 right-20 w-24 h-24 rounded-full bg-primary-glow animate-float" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute top-50 left-100 w-32 h-32 rounded-full bg-accent animate-float" style={{ animationDelay: '0s' }}></div>
+        <div className="absolute top-40 right-20 w-24 h-24 rounded-full bg-primary-glow animate-float" style={{ animationDelay: '1s' }}></div>
         <div className="absolute bottom-32 left-1/4 w-20 h-20 rounded-full bg-secondary animate-float" style={{ animationDelay: '1s' }}></div>
       </div>
 
@@ -38,9 +38,7 @@ export const HeroSection = () => {
               <Button variant="golden" size="lg" className="text-lg px-8 py-6">
                 🍲 Cook Dishes
               </Button>
-              <Button variant="maroon" size="lg" className="text-lg px-8 py-6">
-                🔊 Listen Live
-              </Button>
+              
             </div>
           </div>
 
@@ -58,12 +56,7 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary-foreground/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-primary-foreground/50 rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
+      
     </section>
   );
 };
